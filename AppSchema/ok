@@ -1,0 +1,6 @@
+#!/bin/bash -p
+
+# mvn clean install -B
+# rm dependency-reduced-pom.xml
+
+java -jar ./target/Pilot.jar "$@"
